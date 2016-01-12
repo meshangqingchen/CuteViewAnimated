@@ -13,6 +13,7 @@
 		346B108C1C448D7300FD8FA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346B108A1C448D7300FD8FA7 /* Main.storyboard */; };
 		346B108E1C448D7300FD8FA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 346B108D1C448D7300FD8FA7 /* Assets.xcassets */; };
 		346B10911C448D7300FD8FA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346B108F1C448D7300FD8FA7 /* LaunchScreen.storyboard */; };
+		346B109D1C448F1200FD8FA7 /* LCCuteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 346B109C1C448F1200FD8FA7 /* LCCuteView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		346B108D1C448D7300FD8FA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		346B10901C448D7300FD8FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		346B10921C448D7300FD8FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		346B109B1C448F1200FD8FA7 /* LCCuteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCuteView.h; sourceTree = "<group>"; };
+		346B109C1C448F1200FD8FA7 /* LCCuteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCuteView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		346B10801C448D7300FD8FA7 /* 实现果冻效果 */ = {
 			isa = PBXGroup;
 			children = (
+				346B10981C448DE800FD8FA7 /* LCCuteView */,
 				346B10841C448D7300FD8FA7 /* AppDelegate.h */,
 				346B10851C448D7300FD8FA7 /* AppDelegate.m */,
 				346B10871C448D7300FD8FA7 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				346B10821C448D7300FD8FA7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		346B10981C448DE800FD8FA7 /* LCCuteView */ = {
+			isa = PBXGroup;
+			children = (
+				346B109B1C448F1200FD8FA7 /* LCCuteView.h */,
+				346B109C1C448F1200FD8FA7 /* LCCuteView.m */,
+			);
+			name = LCCuteView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			files = (
 				346B10891C448D7300FD8FA7 /* ViewController.m in Sources */,
 				346B10861C448D7300FD8FA7 /* AppDelegate.m in Sources */,
+				346B109D1C448F1200FD8FA7 /* LCCuteView.m in Sources */,
 				346B10831C448D7300FD8FA7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

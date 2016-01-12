@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "LCCuteView.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    LCCuteView *LCCuteView1 = [[LCCuteView alloc]initWithFrame:self.view.frame];
+    [self.view addSubview:LCCuteView1];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
